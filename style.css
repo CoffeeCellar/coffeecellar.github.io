@@ -1,0 +1,715 @@
+body {
+    background: #a30c04 !important;
+}
+
+.navbar a {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-family: Century Gothic, sans-serif;
+    text-align: center;
+    margin: 0;
+    vertical-align: middle; !important;
+}
+
+.navbar a:hover {
+    text-decoration: none;
+    color: #a30c04;
+}
+
+.navbar a:focus {
+    text-decoration: none;
+    color: #a30c04;
+}
+
+.navbar {
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(4, 4, 4, 0.45) !important;
+    height: 75px;
+}
+
+.navbar:hover {
+    background-color: #040404 !important;
+}
+
+.navbar ul {
+    display: inline-block; !important;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline;
+    text-align: center;
+}
+
+.navbar .divider-vertical {
+    margin-top: 0;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 0;
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #ffffff;
+}
+
+.navbar .container-fluid {
+    line-height: 50px;
+    padding-top: 10px;
+    width: 50%;
+    height: 100%;
+}
+
+.jumbotron {
+    background-image:url('http://i.imgur.com/6eYeu66.jpg');
+    background-attachment: fixed;
+    height: 690px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 !important;
+}
+
+.jumbotron .container-fluid {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 690px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0;
+    margin: 0;
+}
+
+.jumbotron h1 {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+        font-weight: bolder;
+    font: 45px "Century Gothic";
+    letter-spacing: 10px;
+    color: #ffffff !important;
+    text-shadow: 3px 3px 0 #a30c04, 5px 5px 0 #7d7d7d;
+    width: 50%;
+    margin: auto;
+    background-color: rgba(56, 56, 56, 0.4);
+    box-shadow: -10px 10px #a30c04;
+    text-align: center !important;
+    border-radius: 25px;
+    border: 4px solid #a30c04;
+    padding: 20px;
+
+}
+
+.jumbotron2 {
+    height: 590px;
+    padding: 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('http://i.imgur.com/dRYUICR.jpg');
+    border: black 20px;
+}
+
+.jumbotron2 .container-fluid {
+    display: table;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.row-fluid {
+    width: 100%;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.row-fluid .col-md-4 {
+    align-content: center !important;
+    background-color: #2aabd2;
+    float: none;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.centering {
+    float: none;
+    margin: 0 auto;
+}
+
+.jumbotron2 h4 {
+    color: #d7ceb2;
+    text-shadow: 3px 3px 0 #a30c04, 5px 5px 0 #f10c04;
+    font: 80px 'Century Gothic';
+    letter-spacing: 10px;
+    width: 50%;
+    margin: auto;
+    text-align: center !important;
+}
+
+.jumbotron2 h5 {
+    color: #d7ceb2;
+    text-shadow: 3px 3px 0 #a30c04, 5px 5px 0 #f10c04;
+    font: 80px 'Century Gothic';
+    letter-spacing: 10px;
+    width: 50%;
+    margin: auto;
+    text-align: center !important;
+    background-color: rgba(125, 125, 125, 0.4);
+    border-radius: 25px;
+    border: 10px solid #af001d;
+    padding: 20px;
+    }
+
+.chunk {
+    background-image:url('http://i.imgur.com/ORf9DK6.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.learn-more .container {
+    border-top: 5px solid #dbdbdb;
+    border-bottom: 5px solid #dbdbdb;
+    padding: 20px;
+    width: 100%;
+    left: 0;
+}
+
+.learn-more .container:hover {
+    background-image: url('http://i.imgur.com/YI2fj7F.jpg');
+    background-size: cover;
+}
+
+.v-center {
+    display:table; !important;
+}
+
+.learn-more .container-fluid {
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+    height: 400px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    align-content: center;
+}
+
+.learn-more h3 {
+    font: 30px 'Century Gothic';
+    padding: 15px;
+    color: whitesmoke;
+}
+
+.learn-more h2 {
+    color: #d7ceb2;
+    text-shadow: 3px 3px 0 #a30c04, 5px 5px 0 #f10c04;
+    font: 80px 'Century Gothic';
+    letter-spacing: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+.learn-more a {
+    font: 45px 'Century Gothic';
+    color: #ffffff;
+    text-align: center;
+    padding: 20px !important;
+}
+
+.learn-more a:hover {
+    text-decoration: none;
+    color: darkgrey;
+    text-shadow: 3px 3px 0 #a30c04, 5px 5px 0 #040404;
+}
+
+.learn-more a:focus {
+    text-decoration: none;
+    color: darkgrey;
+    text-shadow: 3px 3px 0 #a30c04, 5px 5px 0 #040404;
+}
+
+.learn-more p {
+    font-size: 16px;
+    margin-bottom: 13px;
+    font-family: Century Gothic, sans-serif;
+    text-align: center;
+    color: #ffffff;
+}
+
+ hr {
+    width: 100%;
+    height: 5px;
+    background: #6f6f6f;
+     padding: 0;
+}
+
+.learn-more {
+    color: antiquewhite;
+    text-align: center;
+}
+
+.neighbourhood-guides {
+    text-align: center;
+}
+
+.neighbourhood-guides .container {
+    border-top: 5px solid #dbdbdb;
+    width: 100%;
+    left: 0;
+    padding: 20px;
+}
+
+.neighbourhood-guides .container:hover {
+    background-image: url('http://i.imgur.com/OOECzm9.jpg');
+    background-size: cover;
+}
+
+.neighbourhood-guides .thumbnail {
+    height: 350px;
+    width: 350px;
+    background-color: transparent;
+    border: 0;
+    vertical-align: middle !important;
+    display: table-cell;
+    border-radius: 50px;
+}
+
+.neighbourhood-guides .img {
+    max-width: 100%;
+}
+
+.neighbourhood-guides .row {
+    vertical-align: middle;
+    background-color: rgba(4, 4, 4, 0.7);
+    height: 500px;
+    display: table;
+    width: 100%;
+}
+
+.neighbourhood-guides .col-md-4 {
+    display: table;
+    table-layout: fixed;
+    height: 500px;
+    vertical-align: inherit;
+}
+
+.neighbourhood-guides .col-md-6 {
+    display: table;
+    padding-top: 55px;
+    height: 500px;
+    background-color: rgba(4, 4, 4, 0.7);
+}
+
+.neighbourhood-guides .col-md-8 {
+    background-color: rgba(4, 4, 4, 0.7);
+    height: 500px;
+    display: table;
+}
+
+.neighbourhood-guides .text {
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+}
+
+.neighbourhood-guides .container-fluid {
+    height: 500px;
+}
+
+.neighbourhood-guides a {
+    color: #ffffff;
+    font: 45px 'Century Gothic';
+    alignment: center;
+    padding: 20px !important;
+}
+
+.neighbourhood-guides a:hover {
+    text-decoration: none;
+    color: darkgrey;
+    text-shadow: 3px 3px 0 #a30c04, 5px 5px 0 #040404;
+}
+
+.neighbourhood-guides a:focus {
+    text-decoration: none;
+    color: darkgrey;
+    text-shadow: 3px 3px 0 #a30c04, 5px 5px 0 #040404;
+}
+
+.neighbourhood-guides h1 {
+    color: darkgray;
+    display: block;
+    font: 45px 'Century Gothic';
+    text-align: center;
+    width: auto;
+    text-transform: uppercase
+}
+
+.neighbourhood-guides h2 {
+    color: #dbdbdb;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+    font-family: "Century Gothic";
+    text-transform: uppercase;
+}
+
+.neighbourhood-guides p {
+    font-size: 16px;
+    margin-bottom: 13px;
+    font-family: Century Gothic, sans-serif;
+    text-align: center;
+    color: #ffffff;
+}
+
+.neighbourhood-guides .text p {
+    color: #dbdbdb;
+}
+
+.where .container {
+    width: 100%;
+    left: 0;
+    padding: 20px;
+}
+
+.where {
+    text-align: center;
+}
+
+.where .container:hover {
+    background-image: url('http://i.imgur.com/H3LDA7p.jpg');
+    background-size: 100% 100%;
+}
+
+.where .col-md-6 {
+    display: table;
+    padding-top: 55px;
+    height: 500px;
+    background-color: rgba(4, 4, 4, 0.7);
+}
+
+.where .container-fluid {
+    background-image:url('http://www.thecoffeeroaster.net/sites/default/files/beans2.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+
+}
+
+.where a {
+    color: #ffffff;
+    font: 45px 'Century Gothic';
+}
+
+.where a:hover {
+    text-decoration: none;
+    color: darkgrey;
+    text-shadow: 3px 3px 0 #a30c04, 5px 5px 0 #040404;
+}
+
+.where a:focus {
+    text-decoration: none;
+    color: darkgrey;
+    text-shadow: 3px 3px 0 #a30c04, 5px 5px 0 #040404;
+}
+
+.where p {
+    font-size: 16px;
+    margin-bottom: 13px;
+    font-family: Century Gothic, sans-serif;
+    text-align: center;
+    color: #ffffff;
+}
+
+.where h2 {
+    color: #dbdbdb;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+    font-family: "Century Gothic";
+    text-transform: uppercase;
+}
+
+.footer {
+    border-top: 5px solid white;
+    background-color: black;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.footer .row {
+    margin: 0 auto;
+}
+
+.footer .container-fluid {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+}
+
+.footer .wrap {
+    background-color: #dbdbdb;
+    display: table;
+    border-radius: 25px;
+    margin: 0 auto;
+}
+
+.footer p {
+    font-size: 16px;
+    margin-bottom: 13px;
+    font-family: Century Gothic, sans-serif;
+    text-align: center;
+    color: #dbdbdb;
+}
+
+.footer h1 {
+    font: 30px 'Century Gothic';
+    color: #dbdbdb;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer a {
+    padding: 30px;
+    text-align: center;
+    display: table-cell;
+}
+
+.footer i:hover {
+    color: rgba(241, 12, 4, 0.4);
+}
+
+.footer i {
+    color: #040404;
+}
+
+.port-5 {
+    float: left;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    border: 6px solid rgba(255, 255, 255, 0.9);
+    overflow: visible;
+    background-color: rgba(4, 4, 4, 0.81);
+    border-radius: 100px;
+}
+
+.port-5.effect-1 {
+    z-index: 9;
+}
+.port-5.effect-1 img {
+    transition: 0.5s;
+    border-radius: 100px;
+}
+.port-5.effect-1:hover img {
+    transform: scale(0.5) translateX(-100%);
+    position: relative;
+    z-index: 9;
+    border: 6px solid rgba(255, 255, 255, 0.9);
+}
+.port-5.effect-1 .text-desc {
+    transform: translateX(100%);
+    opacity: 0;
+    padding: 40px 20px 20px 90px;
+    transition: 0.5s;
+    border-radius: 100px;
+}
+.port-5.effect-1:hover .text-desc {
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+.port-5.effect-2 {
+    z-index: 10;
+}
+.port-5.effect-2 img {
+    transition: 0.5s;
+    transform: none;
+    border-radius: 100px;
+}
+.port-5.effect-2:hover img {
+    transform: scale(0.5) translateY(100%);
+    position: relative;
+    z-index: 9;
+    border: 6px solid rgba(255, 255, 255, 0.9);
+}
+.port-5.effect-2 .text-desc {
+    transform: translateY(-100%);
+    opacity: 0;
+    padding: 20px;
+    transition: 0.5s;
+    border-radius: 100px;
+}
+.port-5.effect-2:hover .text-desc {
+    transform: translateY(0px);
+    opacity: 1;
+}
+.port-5.effect-3 img {
+    transition: 0.5s;
+    border-radius: 100px;
+}
+.port-5.effect-3:hover img {
+    transform: scale(0.5) translateX(100%);
+    position: relative;
+    z-index: 9;
+    border: 6px solid rgba(255, 255, 255, 0.9);
+}
+.port-5.effect-3 .text-desc {
+    transform: translateX(-100%);
+    opacity: 0;
+    padding: 40px 90px 20px 20px;
+    transition: 0.5s;
+    border-radius: 100px;
+}
+.port-5.effect-3:hover .text-desc {
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+.drink-panel .container {
+    margin: 0 auto;
+    max-width: 1060px;
+    height: 100%;
+    display: table;
+    vertical-align: middle;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 200px;
+}
+.drink-panel h2 {
+    color: #fff;
+    float: left;
+    width: 100%;
+    font-size: 45px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-family: "Century Gothic";
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    z-index: 50;
+}
+.drink-panel h2 span {
+    position: relative;
+    padding-bottom: 10px;
+}
+.drink-panel h2 span:after {
+    content: "";
+    width: 50%;
+    height: 3px;
+    background-color: #fff;
+    position: absolute;
+    left: 25%;
+    bottom: 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.drink-panel img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+.drink-panel {
+    width: 100%;
+    float: left;
+    padding-bottom: 80px;
+    padding-top: 75px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("http://images.freecreatives.com/wp-content/uploads/2015/03/top-brick-wall-design-in-brick-wall-wallpaper-2560x1600-more.jpg");
+    height: 690px;
+    border-bottom: 5px solid #393c3d;
+}
+
+.drink-panel .row {
+    display: table-cell;
+    vertical-align: middle !important;
+}
+
+.drink-panel h3 {
+    margin-bottom: 10px;
+    font: 25px 'Century Gothic';
+    text-transform: uppercase;
+}
+.drink-panel p {
+    font-weight: 300;
+    line-height: 20px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    font-family: 'Century Gothic'
+}
+.drink-panel a {
+    font-family: "Century Gothic";
+}
+.btn {
+    display: inline-block;
+    padding: 5px 5px;
+    font-size: 14px;
+    color: #fff;
+    border: 2px solid #f10c04;
+    background-color: #af001d;
+    text-decoration: none;
+    transition: 0.4s;
+}
+.btn:hover {
+    background-color: transparent;
+    color: #4d92d9;
+    transition: 0.4s;
+}
+.text-desc {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #9b9b9b;
+    height: 100%;
+    opacity: 0;
+    width: 100%;
+    padding: 20px;
+}
+
+#coffee {
+    padding: 250px 50px 250px;
+    background: url(http://i.imgur.com/ORf9DK6.jpg);
+    background-size: cover;
+}
+
+.beans {
+    padding: 250px 50px 200px;
+    background-size: contain !important;
+    background-repeat: no-repeat;
+    background: url(http://i.imgur.com/xg1Qjca.jpg);
+}
+
+.milk {
+    padding: 250px 50px 200px;
+    background-repeat: no-repeat;
+    background: url(http://i.imgur.com/SKKixzu.jpg);
+    background-size: contain !important;
+}
+
+#hdrink {
+    font: 150px 'Century Gothic';
+    color: #f10c04;
+    mix-blend-mode: screen;
+    padding: 0;
+    margin: 0;
+    line-height: 0.5;
+}
+
+#pdrink {
+    font: 75px 'Century Gothic';
+    color: #af001d;
+    mix-blend-mode: screen;
+    margin: 0;
+    text-align: right;
+    padding-top: 200px;
+}
+
+.fadein {
+    opacity: 0;
+}
