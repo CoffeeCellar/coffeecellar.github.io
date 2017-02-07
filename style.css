@@ -64,8 +64,8 @@ body {
 }
 
 .jumbotron {
-    background-image:url('http://i.imgur.com/6eYeu66.jpg');
-    background-attachment: fixed;
+    background-image:url('http://i.imgur.com/ORf9DK6.jpg');
+    background-attachment: scroll;
     height: 690px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -78,7 +78,7 @@ body {
     height: 690px;
     top: 50%;
     transform: translateY(-50%);
-    padding: 0;
+    padding: 0 !important;
     margin: 0;
 }
 
@@ -86,15 +86,15 @@ body {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-        font-weight: bolder;
-    font: 45px "Century Gothic";
-    letter-spacing: 10px;
+        font-weight: 100;
+    font: 100px "Century Gothic";
+    letter-spacing: 8px;
     color: #ffffff !important;
     text-shadow: 3px 3px 0 #a30c04, 5px 5px 0 #7d7d7d;
     width: 50%;
     margin: auto;
     background-color: rgba(56, 56, 56, 0.4);
-    box-shadow: -10px 10px #a30c04;
+    box-shadow: -8px 8px #a30c04;
     text-align: center !important;
     border-radius: 25px;
     border: 4px solid #a30c04;
@@ -164,26 +164,27 @@ body {
     }
 
 .chunk {
-    background-image:url('http://i.imgur.com/ORf9DK6.jpg');
+    background-image:url('http://i.imgur.com/1OEpii6.jpg');
     background-attachment: fixed;
     background-size: cover;
+    min-height: 690px;
+    display: table;
+    width: 100%;
+}
+
+.group {
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .learn-more .container {
-    border-top: 5px solid #dbdbdb;
-    border-bottom: 5px solid #dbdbdb;
     padding: 20px;
     width: 100%;
     left: 0;
 }
 
-.learn-more .container:hover {
-    background-image: url('http://i.imgur.com/YI2fj7F.jpg');
-    background-size: cover;
-}
-
 .v-center {
-    display:table; !important;
+    display:table; !important
 }
 
 .learn-more .container-fluid {
@@ -214,9 +215,10 @@ body {
 
 .learn-more a {
     font: 45px 'Century Gothic';
-    color: #ffffff;
     text-align: center;
     padding: 20px !important;
+    color: #a30c04;
+    text-shadow: 2px 2px 0 darkgrey, 4px 4px 0 #040404;
 }
 
 .learn-more a:hover {
@@ -256,15 +258,9 @@ body {
 }
 
 .neighbourhood-guides .container {
-    border-top: 5px solid #dbdbdb;
     width: 100%;
     left: 0;
     padding: 20px;
-}
-
-.neighbourhood-guides .container:hover {
-    background-image: url('http://i.imgur.com/OOECzm9.jpg');
-    background-size: cover;
 }
 
 .neighbourhood-guides .thumbnail {
@@ -283,7 +279,6 @@ body {
 
 .neighbourhood-guides .row {
     vertical-align: middle;
-    background-color: rgba(4, 4, 4, 0.7);
     height: 500px;
     display: table;
     width: 100%;
@@ -317,10 +312,12 @@ body {
 
 .neighbourhood-guides .container-fluid {
     height: 500px;
+    background-color: rgba(4, 4, 4, 0.7);
 }
 
 .neighbourhood-guides a {
-    color: #ffffff;
+    color: darkgrey;
+    text-shadow: 2px 2px 0 #a30c04, 4px 4px 0 #040404;
     font: 45px 'Century Gothic';
     alignment: center;
     padding: 20px !important;
@@ -378,11 +375,6 @@ body {
     text-align: center;
 }
 
-.where .container:hover {
-    background-image: url('http://i.imgur.com/H3LDA7p.jpg');
-    background-size: 100% 100%;
-}
-
 .where .col-md-6 {
     display: table;
     padding-top: 55px;
@@ -391,16 +383,14 @@ body {
 }
 
 .where .container-fluid {
-    background-image:url('http://www.thecoffeeroaster.net/sites/default/files/beans2.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: inherit;
     height: 500px;
 
 }
 
 .where a {
-    color: #ffffff;
+    color: #a30c04;
+    text-shadow: 2px 2px 0 darkgrey, 4px 4px 0 #040404;
     font: 45px 'Century Gothic';
 }
 
@@ -621,7 +611,6 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("http://images.freecreatives.com/wp-content/uploads/2015/03/top-brick-wall-design-in-brick-wall-wallpaper-2560x1600-more.jpg");
     height: 690px;
     border-bottom: 5px solid #393c3d;
 }
