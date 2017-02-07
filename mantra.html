@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        @font-face {
+            font-family: 'BazarMedium';
+            src: url('http://www.midwinter-dg.com/blog_demos/css-text-shadows/fonts/bazar-webfont.eot');
+            src: url('http://www.midwinter-dg.com/blog_demos/css-text-shadows/fonts/bazar-webfont.eot?iefix') format('eot'),
+            url('http://www.midwinter-dg.com/blog_demos/css-text-shadows/fonts/bazar-webfont.woff') format('woff'),
+            url('http://www.midwinter-dg.com/blog_demos/css-text-shadows/fonts/bazar-webfont.ttf') format('truetype'),
+            url('http://www.midwinter-dg.com/blog_demos/css-text-shadows/fonts/bazar-webfont.svg#webfont4U38ahXF') format('svg');
+            font-weight: normal;
+            font-style: normal;
+
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <title>The Coffee Cellar</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Sansita+One' rel='stylesheet'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <!-- Bootstrap style -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="divider-vertical"></li>
+            <li><a href="mantra.html">Our Mantra</a></li>
+            <li class="divider-vertical"></li>
+            <li><a href="#">Food</a></li>
+            <li class="divider-vertical"></li>
+            <li><a href="drink.html">Drink</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="jumbotron2">
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="centering">
+                <h4>SOULFUL RUSTIC VIBES</h4>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="jumbotron2">
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="centering">
+                <h4 class="fadein">DAMN FINE COFFEE</h4>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="jumbotron2">
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="centering">
+                <h4 class="fadein">SPICY CUSTOMER SERVICE</h4>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="jumbotron2">
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="centering">
+                <h4 class="fadein">REAL TASTY GRUB</h4>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="jumbotron2">
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="centering">
+                <h4 class="fadein">ALL IN ALL<br>...</h4>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="jumbotron2">
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="centering">
+                <h5 class="fadein">THE LUNCH EXPERIENCE YOU DESERVE</h5>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="container-fluid">
+                <h1>ENQUIRIES</h1>
+                <p>If you really can't come down and see us then give us a call or send us an email</p>
+                <p>Telephone: 01392 410000</p>
+                <p>Email: COFFEE@CELLAR.LOL.WUT</p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="container-fluid">
+                <h1>FOLLOW US</h1>
+                <div class="wrap">
+                    <a href="https://www.facebook.com/The-Coffee-Cellar-184067811631474"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+                    <a href="https://twitter.com/coffeecellar1"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+                    <a href="https://www.tripadvisor.co.uk/Restaurant_Review-g186254-d4212620-Reviews-The_Coffee_Cellar-Exeter_Devon_England.html"><i class="fa fa-tripadvisor fa-2x" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/thecoffeecellar/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="block_1"></div> <hr/>
+        <div>
+            <p>© The Coffee Cellar | All Rights Reserved</p>
+        </div>
+    </div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $(window).scroll( function() {
+            $('.fadein').each( function(){
+                var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+                var bottom_of_window = $(window).scrollTop() + $(window).height();
+                if( bottom_of_window > bottom_of_object ){
+                    $(this).animate({'opacity':'1'},500);
+
+                }
+            });
+        });
+    });
+</script>
+
+<script type="text/javascript">
+    $('#toggle3').click(function() {
+        $('.toggle3').toggle('slow');
+        return false;
+    });
+</script>
+
+<script type="text/javascript">
+    $('#toggle2').click(function() {
+        $('.toggle2').toggle('slow');
+        return false;
+    });
+</script>
+
+<script type="text/javascript">
+    $('#toggle1').click(function() {
+        $('.toggle1').toggle('slow');
+        return false;
+    });
+</script>
+</body>
+</html>
