@@ -316,8 +316,8 @@ body {
 }
 
 .neighbourhood-guides a {
-    color: darkgrey;
-    text-shadow: 2px 2px 0 #a30c04, 4px 4px 0 #040404;
+    color: #a30c04;
+    text-shadow: 2px 2px 0 darkgrey, 4px 4px 0 #040404;
     font: 45px 'Century Gothic';
     alignment: center;
     padding: 20px !important;
