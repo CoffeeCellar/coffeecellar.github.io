@@ -164,7 +164,7 @@ body {
     }
 
 .chunk {
-    background-image:url('http://i.imgur.com/1OEpii6.jpg');
+    background-image:url(/images/about.jpg);
     background-attachment: fixed;
     background-size: cover;
     min-height: 690px;
