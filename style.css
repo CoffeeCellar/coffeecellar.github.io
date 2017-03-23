@@ -64,7 +64,7 @@ body {
 }
 
 .jumbotron {
-    background-image:url('http://i.imgur.com/19XcGcK.jpg');
+    background-image:url(/images/Jumbotron.jpg);
     background-attachment: scroll;
     height: 690px;
     background-repeat: no-repeat;
