@@ -2,6 +2,11 @@ body {
     background: #a30c04 !important;
 }
 
+@font-face {
+	font-family: northwest;
+	src: url(/fonts/northwest.otf)
+}
+
 .navbar a {
     color: #ffffff;
     font-size: 20px;
