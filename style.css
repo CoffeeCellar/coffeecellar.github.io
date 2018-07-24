@@ -73,33 +73,34 @@ body {
 }
 
 .jumbotron .container-fluid {
-    position: relative;
-    background-color: rgba(0, 0, 0, 0.3);
-    height: 690px;
-    top: 50%;
-    transform: translateY(-50%);
-    padding: 0 !important;
-    margin: 0;
+	display: table;
+	position: absolute;
+	height: 690px;
+	width: 100%;
+}	
+
+.jumbotron #logo {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.jumbotron img {
+	display: block;
+	margin: auto;
+	width: 25%;	
+	padding: 20px;
 }
 
 .jumbotron h1 {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-        font-weight: 100;
-    font: 100px "Century Gothic";
+	font: 100px "Century Gothic";
     letter-spacing: 8px;
     color: #ffffff !important;
     text-shadow: 3px 3px 0 #a30c04, 5px 5px 0 #7d7d7d;
-    width: 50%;
+    width: 75%;
     margin: auto;
     background-color: rgba(56, 56, 56, 0.4);
-    box-shadow: -8px 8px #a30c04;
-    text-align: center !important;
-    border-radius: 25px;
-    border: 4px solid #a30c04;
-    padding: 20px;
-
+	padding: 10px;
+	text-align: center;
 }
 
 .jumbotron2 {
