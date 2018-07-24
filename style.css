@@ -168,7 +168,7 @@ body {
     background-image:url(/images/about.jpg);
     background-attachment: fixed;
     background-size: cover;
-    min-height: 690px;
+    height: 690px;
     display: table;
     width: 100%;
 }
