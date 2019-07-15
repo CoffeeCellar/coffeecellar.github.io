@@ -70,16 +70,18 @@ body {
 .jumbotron {
     background-image:url(/images/Jumbotron.jpg);
     background-attachment: scroll;
-    height: 690px;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+	display: flex;
+	align-content: center;
     margin: 0 !important;
 }
 
 .jumbotron .container-fluid {
 	display: table;
 	position: absolute;
-	height: 690px;
+	height: 100vh;
 	width: 100%;
 }	
 
@@ -107,7 +109,7 @@ body {
 }
 
 .jumbotron2 {
-    height: 590px;
+    height: 100vh;
     padding: 0;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -172,7 +174,7 @@ body {
     background-image:url(/images/about.jpg);
     background-attachment: fixed;
     background-size: cover;
-    height: 690px;
+    height: 100vh;
     display: table;
     width: 100%;
 }
